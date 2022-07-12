@@ -1,0 +1,19 @@
+.textocenter{
+    margin: 20px;
+    text-align: center;
+}
+h1{
+    font-family: Georgia;
+    
+}
+body {
+    font-family:'Gill Sans';
+    letter-spacing: 0.0em;
+}
+.form {
+    width: 200px;
+    margin: auto;
+}
+footer{
+    text-align: center;
+}
