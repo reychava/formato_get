@@ -10,4 +10,19 @@
     echo "la talla del producto es:  ".$talla. "<br>";
     $precio=$_GET["precio"];
     echo "el precio del producto es:  ".$precio;
+
+    include("conexion.php");
+
+    $sql= "INSERT INTO registro_calzado VALUES ($codigo,'$descripcion',$talla,$precio)";
+
+
+
+    if(mysqli_query($conn, $sql))
+    {
+        echo "calzado registrado correctamente";
+    }
+
+    else{
+        echo"Error : ".$sql."<br>".mysqli_error($conn);
+    }
 ?>

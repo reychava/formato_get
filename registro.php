@@ -68,28 +68,28 @@
                         <div class="row mb-3">
                             <label class="col-sm-10">Codigo de calzado</label>
                             <div class="col-sm-10">
-                                <input type="text" name="codigo_calzado" class="form-control" placeholder="Introduce el codigo del calzado">
+                                <input type="text" name="codigo_calzado" required class="form-control" placeholder="Introduce el codigo del calzado" required>
                             </div>
                         </div>
 
                         <div class="row mb-3">
                             <label class="col-sm-10">Descripcion</label>
                             <div class="col-sm-10">
-                                <input type="text" name="descripcion" class="form-control" placeholder="Escribe la descripcion del calzado">
+                                <input type="text" name="descripcion" class="form-control" placeholder="Escribe la descripcion del calzado" required>
                             </div>
                         </div>
 
                         <div class="row mb-3">
                             <label class="col-sm-10">Talla</label>
                             <div class="col-sm-10">
-                                <input type="text" name="talla" class="form-control" placeholder="Introduce la talla del calzado">
+                                <input type="text" name="talla" class="form-control" placeholder="Introduce la talla del calzado" required>
                             </div>
                         </div>
 
                         <div class="row mb-3">
                             <label class="col-sm-10">Precio</label>
                             <div class="col-sm-10">
-                                <input type="text" name="precio" class="form-control" placeholder="Introduce el precio del calzado">
+                                <input type="text" name="precio" class="form-control" placeholder="Introduce el precio del calzado" required>
                             </div>
                         </div>
                         <div class="d-grid gap-2 col-6 mx-auto">
